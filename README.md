@@ -2,7 +2,7 @@
 Created a Process Manager for Linux using Rust. This project implements both a cli and gui. The Gui is implemented using FLTK crate
 
 
-GUI
+GUI:
 1) A table of the process information as well showing for every process whether it is a system process or a user process
 2) Sorting by Priority, Memory Usage, CPU Usage, Run Time, Disk Read and Written Bytes as well as PID
 3) Searching for a process by its name or PID
@@ -10,7 +10,8 @@ GUI
 5) Kill a process by selecting it and pressing Kill Process button
 6) Kill a branch by just selecting the parent process from the table and clicking on Kill branch button
 7) Real-Time Updates for the data every 5 seconds
-B. CLI
+
+CLI:
 1) Search for all the processes with the same name by entering the process name (will get shown as a table)
 2) Kill process by PID
 3) Save process table as a CSV file
